@@ -16,7 +16,7 @@ export default function Portfolio() {
         </header> */}
 
         <section className="hero row align-items-center mb-5" id="home">
-          <div className="col-md-7">
+          <div className="col-md-7 order-md-1 order-2">
             <div className="badge bg-light text-primary mb-3">Manager</div>
             <h2 className="display-4">Hi, I'm <strong className="text-primary">Manish Mishra</strong></h2>
             <p className="lead">Frontend Developer Team Lead — building scalable web applications and AI-powered solutions.</p>
@@ -25,14 +25,14 @@ export default function Portfolio() {
               <a className="btn btn-outline-primary btn-lg" href="/Resume.pdf" download>Download Resume</a>
             </div>
           </div>
-          <div className="col-md-5 text-center">
+          <div className="col-md-5 text-center order-md-2 order-1 mb-4 mb-md-0">
             <img src={heroImg} className="rounded-circle profile-img" alt="Manish" width={240} height={240} />
           </div>
         </section>
 
         <section id="about" className="about mb-5">
-          <div className="row align-items-center">
-            <div className="col-lg-7">
+          <div className="row align-items-start">
+            <div className="col-lg-7 order-lg-1 order-2">
               <h3>About Me</h3>
               <p className="lead">I am a seasoned Frontend Developer Team Lead with over 11 years of experience building scalable web applications, leading high-performing teams, and integrating AI-driven solutions.</p>
               <p>My expertise includes Angular, React, TypeScript, advanced UI development, and Gen AI tooling. I focus on creating maintainable, performant frontends while mentoring developers and delivering business value.</p>
@@ -42,7 +42,7 @@ export default function Portfolio() {
                 <li>Delivered modern dashboards, analytics tools, and secure financial UIs.</li>
               </ol>
             </div>
-            <div className="col-lg-5">
+            <div className="col-lg-5 order-lg-2 order-1 mb-4 mb-lg-0">
               <div className="p-4 rounded-4 border bg-light">
                 <h5>Quick facts</h5>
                 <p className="mb-1"><strong>Location:</strong> Pune, India</p>
